@@ -1,0 +1,543 @@
+[
+    {
+        id: 1,
+        name: 'Hersan fisioterapia',
+        email: 'Hersanfisioterapia@hotmail.com',
+        telefono: '681648459',
+        direccion: 'Calle mayor 44B, El Raal',
+        ciudad: 'Murcia',
+        pagina_web: null,
+        imageUrl: '../../../assets/hersan-fisioterapias/logo.jpeg',
+        logo: '../../assets/icon.png',
+        rating: '4.8',
+        redes_sociales: [
+            {
+                instagram: '@hersanfisioterapia ',
+                twitter: 'hersanfisioterapia',
+                facebook: 'hersanfisioterapia'
+            }
+        ],
+        description: 'Clínica de fisioterapia osteópatia y pilates terapéutico.',
+        activities: [
+            {
+                activityId: 2,
+                name: 'Pilates',
+                description: 'Pilates terapéutico',
+                duracion: '60',
+                precio: '30',
+                material: null,
+                availability: [
+                    {
+                        date: '2024-10-07',
+                        schedules: [
+                            { time: '6:00 PM', slots: 3 },
+                            { time: '7:00 PM', slots: 4 },
+                            { time: '8:00 PM', slots: 6 },
+                            { time: '9:00 PM', slots: 6 },
+                        ],
+                    },
+                    {
+                        date: '2024-10-08',
+                        schedules: [
+                            { time: '6:00 PM', slots: 3 },
+                            { time: '7:00 PM', slots: 4 },
+                            { time: '8:00 PM', slots: 6 },
+                            { time: '9:00 PM', slots: 6 },
+                        ],
+                    },
+                    {
+                        date: '2024-10-09',
+                        schedules: [
+                            { time: '6:00 PM', slots: 3 },
+                            { time: '7:00 PM', slots: 4 },
+                            { time: '8:00 PM', slots: 6 },
+                            { time: '9:00 PM', slots: 6 },
+                        ],
+                    },
+                    {
+                        date: '2024-10-10',
+                        schedules: [
+                            { time: '6:00 PM', slots: 3 },
+                            { time: '7:00 PM', slots: 4 },
+                            { time: '8:00 PM', slots: 6 },
+                            { time: '9:00 PM', slots: 6 },
+                        ],
+                    },
+                    {
+                        date: '2024-10-11',
+                        schedules: [
+                            { time: '6:00 PM', slots: 3 },
+                            { time: '7:00 PM', slots: 4 },
+                            { time: '8:00 PM', slots: 6 },
+                            { time: '9:00 PM', slots: 6 },
+                        ],
+                    }
+                ],
+            },
+
+            /* {
+                activityId: 2,
+                name: 'Pilates',
+                description: 'Pilates es una práctica que combina posturas, respiración y meditación para mejorar la flexibilidad y la concentración.',
+                duracion: '60',
+                precio: '10',
+                availability: [
+                    {
+                        date: '2024-09-20',
+                        schedules: ['9:00 AM', '11:00 AM'],
+                    },
+                    {
+                        date: '2024-09-21',
+                        schedules: ['6:00 PM', '7:00 PM'],
+                    },
+                    {
+                        date: '2024-10-02',
+                        schedules: ['6:00 PM', '7:00 PM'],
+                    },
+                ],
+            },
+            {
+                activityId: 3,
+                name: 'Entrenamiento funcional',
+                description: 'El entrenamiento funcional es una práctica que combina posturas, respiración y meditación para mejorar la flexibilidad y la concentración.',
+                duracion: '60',
+                precio: '10',
+                availability: [
+                    {
+                        date: '2024-09-21',
+                        schedules: ['9:30 AM', '11:30 AM'],
+                    },
+                    {
+                        date: '2024-09-22',
+                        schedules: [
+                            { time: '9:00 AM', slots: 3 },
+                            { time: '1:00 PM', slots: 4 },
+                            { time: '5:00 PM', slots: 6 },],
+                    },
+                ],
+            },
+            {
+                activityId: 4,
+                name: 'Boxeo',
+                description: 'El boxeo es una práctica que combina posturas, respiración y meditación para mejorar la flexibilidad y la concentración.',
+                duracion: '60',
+                precio: '10',
+                availability: [
+                    {
+                        date: '2024-09-21',
+                        schedules: ['9:30 AM', '11:30 AM'],
+                    },
+                    {
+                        date: '2024-09-22',
+                        schedules: [
+                            { time: '9:00 AM', slots: 3 },
+                            { time: '1:00 PM', slots: 4 },
+                            { time: '5:00 PM', slots: 6 },],
+                    },
+                ],
+            }, */
+        ],
+    },
+    {
+        id: 2,
+        name: 'PLENO. SALUD EN MOVIMIENTO',
+        email: 'plenosaludyrendimiento@gmail.com',
+        telefono: '606864462',
+        direccion: 'Navegante Juan Fernández 14',
+        ciudad: 'Murcia',
+        pagina_web: 'https://www.plenosaludenmovimiento.es',
+        imageUrl: 'https://via.placeholder.com/100',
+        logo: 'https://via.placeholder.com/100',
+        rating: '4.8',
+        redes_sociales: [
+            {
+                instagram: 'pleno_saludenmovimiento',
+                twitter: null,
+                facebook: null
+            }
+        ],
+        description: 'Un Centro multidisciplinar de entrenamiento, fisioterapia, nutrición y medicina como los de antes, dónde se perfecciona la comunicación con el cliente y un entreno personalizado',
+        activities: [
+            {
+                activityId: 5,
+                name: 'Entrenamiento',
+                description: 'Entrenamiento personalizado',
+                duracion: '60',
+                precio: '15',
+                material: null,
+                availability: [
+                    {
+                        date: '2024-10-10',
+                        schedules: [
+                            { time: '9:00 AM', slots: 3 },
+                            { time: '1:00 PM', slots: 3 },
+                            { time: '5:00 PM', slots: 3 },],
+                    },
+                    {
+                        date: '2024-10-11',
+                        schedules: [
+                            { time: '9:00 AM', slots: 3 },
+                            { time: '1:00 PM', slots: 3 },
+                            { time: '5:00 PM', slots: 3 },],
+                    },
+                ],
+            },
+
+        ],
+    },
+    {
+        id: 3,
+        name: 'MIFIT',
+        email: 'guillermorodriguez2303@gmail.com',
+        telefono: '613132515',
+        direccion: 'Calle Mayor, 166, 30139 El Raal, Murcia',
+        ciudad: 'Murcia',
+        pagina_web: null,
+        imageUrl: 'https://via.placeholder.com/100',
+        logo: 'https://via.placeholder.com/100',
+        rating: '4.8',
+        redes_sociales: [
+            {
+                instagram: 'Mifit.entrenamiento',
+                twitter: null,
+                facebook: 'Mifitentrenamiento'
+            }
+        ],
+        description: 'Centro de entrenamiento colectivo e individual,recuperación de lesiones,trabajos específicos.',
+        activities: [
+            {
+                activityId: 5,
+                name: 'Entrenamiento',
+                description: 'Entrenamientos tanto colectivos como individuales, propiocencion de lesiones,nutrición, readaptacion de lesiones.',
+                duracion: '60',
+                precio: '8',
+                material: 'Toalla, agua y ropa deportiva',
+                availability: [
+                    {
+                        date: '2024-10-14',
+                        schedules: [
+                            { time: '16:30 PM', slots: 4 },
+                        ],
+                    },
+                    {
+                        date: '2024-10-16',
+                        schedules: [
+                            { time: '16:30 PM', slots: 4 },
+                        ],
+                    },
+                    {
+                        date: '2024-10-18',
+                        schedules: [
+                            { time: '16:30 PM', slots: 4 },
+                        ],
+                    },
+                    {
+                        date: '2024-10-21',
+                        schedules: [
+                            { time: '16:30 PM', slots: 4 },
+                        ],
+                    },
+                    {
+                        date: '2024-10-23',
+                        schedules: [
+                            { time: '16:30 PM', slots: 4 },
+                        ],
+                    },
+                    {
+                        date: '2024-10-25',
+                        schedules: [
+                            { time: '16:30 PM', slots: 4 },
+                        ],
+                    },
+                    {
+                        date: '2024-10-15',
+                        schedules: [
+                            { time: '20:00 PM', slots: 4 },
+                        ],
+                    },
+                    {
+                        date: '2024-10-17',
+                        schedules: [
+                            { time: '20:00 PM', slots: 4 },
+                        ],
+                    },
+                    {
+                        date: '2024-10-22',
+                        schedules: [
+                            { time: '20:00 PM', slots: 4 },
+                        ],
+                    },
+                    {
+                        date: '2024-10-24',
+                        schedules: [
+                            { time: '20:00 PM', slots: 4 },
+                        ],
+                    },
+                    {
+                        date: '2024-10-19',
+                        schedules: [
+                            { time: '8:00 AM', slots: 4 },
+                            { time: '9:00 AM', slots: 4 },
+                        ],
+                    },
+                    {
+                        date: '2024-10-26',
+                        schedules: [
+                            { time: '8:00 AM', slots: 4 },
+                            { time: '9:00 AM', slots: 4 },
+                        ],
+                    },
+                    {
+                        date: '2024-11-02',
+                        schedules: [
+                            { time: '8:00 AM', slots: 4 },
+                            { time: '9:00 AM', slots: 4 },
+                        ],
+                    },
+                ],
+            },
+
+        ],
+    },
+    {
+        id: 4,
+        name: 'KINESIA Fisioterapia Y Movimiento',
+        email: 'infokinesia@gmail.com',
+        telefono: '611 182 441',
+        direccion: 'Avenida Alejandro Valverde, 217 (Vivobox Crossfit), 30007',
+        ciudad: 'Murcia',
+        pagina_web: null,
+        imageUrl: 'https://via.placeholder.com/100',
+        logo: 'https://via.placeholder.com/100',
+        rating: '4.8',
+        redes_sociales: [
+            {
+                instagram: 'kinesiafisioterapiaymovimiento',
+                twitter: null,
+                facebook: 'Kinesia-Fisioterapia-y-Movimiento'
+            }
+        ],
+        description: 'Centro de fisioterapia y rehabilitación funcional individualizado',
+        activities: [
+            {
+                activityId: 6,
+                name: 'Fisioterapia y Readaptación',
+                description: 'Fisioterapia y rehabilitación funcional.',
+                duracion: '45',
+                precio: '40',
+                material: null,
+                availability: [
+                    {
+                        date: '2024-10-14',
+                        schedules: [
+                            { time: '9:00 AM', slots: 1 },
+                            { time: '9:45 AM', slots: 1 },
+                            { time: '10:30 AM', slots: 1 },
+                            { time: '11:15 AM', slots: 1 },
+                            { time: '12:00 AM', slots: 1 },
+                            { time: '12:45 AM', slots: 1 },
+                            { time: '13:30 PM', slots: 1 },
+                            { time: '17:15 PM', slots: 1 },
+                            { time: '18:00 PM', slots: 1 },
+                            { time: '18:45 PM', slots: 1 },
+                            { time: '19:30 PM', slots: 1 },
+                        ],
+                    },
+                    {
+                        date: '2024-10-16',
+                        schedules: [
+                            { time: '9:00 AM', slots: 1 },
+                            { time: '9:45 AM', slots: 1 },
+                            { time: '10:30 AM', slots: 1 },
+                            { time: '11:15 AM', slots: 1 },
+                            { time: '12:00 AM', slots: 1 },
+                            { time: '12:45 AM', slots: 1 },
+                            { time: '13:30 PM', slots: 1 },
+                            { time: '17:15 PM', slots: 1 },
+                            { time: '18:00 PM', slots: 1 },
+                            { time: '18:45 PM', slots: 1 },
+                            { time: '19:30 PM', slots: 1 },
+                        ],
+                    },
+                    {
+                        date: '2024-10-18',
+                        schedules: [
+                            { time: '9:00 AM', slots: 1 },
+                            { time: '9:45 AM', slots: 1 },
+                            { time: '10:30 AM', slots: 1 },
+                            { time: '11:15 AM', slots: 1 },
+                            { time: '12:00 AM', slots: 1 },
+                            { time: '12:45 AM', slots: 1 },
+                            { time: '13:30 PM', slots: 1 },
+                            { time: '17:15 PM', slots: 1 },
+                            { time: '18:00 PM', slots: 1 },
+                            { time: '18:45 PM', slots: 1 },
+                            { time: '19:30 PM', slots: 1 },
+                        ],
+                    },
+                    {
+                        date: '2024-10-21',
+                        schedules: [
+                            { time: '9:00 AM', slots: 1 },
+                            { time: '9:45 AM', slots: 1 },
+                            { time: '10:30 AM', slots: 1 },
+                            { time: '11:15 AM', slots: 1 },
+                            { time: '12:00 AM', slots: 1 },
+                            { time: '12:45 AM', slots: 1 },
+                            { time: '13:30 PM', slots: 1 },
+                            { time: '17:15 PM', slots: 1 },
+                            { time: '18:00 PM', slots: 1 },
+                            { time: '18:45 PM', slots: 1 },
+                            { time: '19:30 PM', slots: 1 },
+                        ],
+                    },
+                    {
+                        date: '2024-10-23',
+                        schedules: [
+                            { time: '9:00 AM', slots: 1 },
+                            { time: '9:45 AM', slots: 1 },
+                            { time: '10:30 AM', slots: 1 },
+                            { time: '11:15 AM', slots: 1 },
+                            { time: '12:00 AM', slots: 1 },
+                            { time: '12:45 AM', slots: 1 },
+                            { time: '13:30 PM', slots: 1 },
+                            { time: '17:15 PM', slots: 1 },
+                            { time: '18:00 PM', slots: 1 },
+                            { time: '18:45 PM', slots: 1 },
+                            { time: '19:30 PM', slots: 1 },
+                        ],
+                    },
+                    {
+                        date: '2024-10-25',
+                        schedules: [
+                            { time: '9:00 AM', slots: 1 },
+                            { time: '9:45 AM', slots: 1 },
+                            { time: '10:30 AM', slots: 1 },
+                            { time: '11:15 AM', slots: 1 },
+                            { time: '12:00 AM', slots: 1 },
+                            { time: '12:45 AM', slots: 1 },
+                            { time: '13:30 PM', slots: 1 },
+                            { time: '17:15 PM', slots: 1 },
+                            { time: '18:00 PM', slots: 1 },
+                            { time: '18:45 PM', slots: 1 },
+                            { time: '19:30 PM', slots: 1 },
+                        ],
+                    },
+                    {
+                        date: '2024-10-15',
+                        schedules: [
+                            { time: '9:00 AM', slots: 1 },
+                            { time: '9:45 AM', slots: 1 },
+                            { time: '10:30 AM', slots: 1 },
+                            { time: '11:15 AM', slots: 1 },
+                            { time: '12:00 AM', slots: 1 },
+                            { time: '12:45 AM', slots: 1 },
+                            { time: '13:30 PM', slots: 1 },
+                            { time: '17:15 PM', slots: 1 },
+                            { time: '18:00 PM', slots: 1 },
+                            { time: '18:45 PM', slots: 1 },
+                            { time: '19:30 PM', slots: 1 },
+                        ],
+                    },
+                    {
+                        date: '2024-10-17',
+                        schedules: [
+                            { time: '9:00 AM', slots: 1 },
+                            { time: '9:45 AM', slots: 1 },
+                            { time: '10:30 AM', slots: 1 },
+                            { time: '11:15 AM', slots: 1 },
+                            { time: '12:00 AM', slots: 1 },
+                            { time: '12:45 AM', slots: 1 },
+                            { time: '13:30 PM', slots: 1 },
+                            { time: '17:15 PM', slots: 1 },
+                            { time: '18:00 PM', slots: 1 },
+                            { time: '18:45 PM', slots: 1 },
+                            { time: '19:30 PM', slots: 1 },
+                        ],
+                    },
+                    {
+                        date: '2024-10-22',
+                        schedules: [
+                            { time: '9:00 AM', slots: 1 },
+                            { time: '9:45 AM', slots: 1 },
+                            { time: '10:30 AM', slots: 1 },
+                            { time: '11:15 AM', slots: 1 },
+                            { time: '12:00 AM', slots: 1 },
+                            { time: '12:45 AM', slots: 1 },
+                            { time: '13:30 PM', slots: 1 },
+                            { time: '17:15 PM', slots: 1 },
+                            { time: '18:00 PM', slots: 1 },
+                            { time: '18:45 PM', slots: 1 },
+                            { time: '19:30 PM', slots: 1 },
+                        ],
+                    },
+                    {
+                        date: '2024-10-24',
+                        schedules: [
+                            { time: '9:00 AM', slots: 1 },
+                            { time: '9:45 AM', slots: 1 },
+                            { time: '10:30 AM', slots: 1 },
+                            { time: '11:15 AM', slots: 1 },
+                            { time: '12:00 AM', slots: 1 },
+                            { time: '12:45 AM', slots: 1 },
+                            { time: '13:30 PM', slots: 1 },
+                            { time: '17:15 PM', slots: 1 },
+                            { time: '18:00 PM', slots: 1 },
+                            { time: '18:45 PM', slots: 1 },
+                            { time: '19:30 PM', slots: 1 },
+                        ],
+                    },
+                    {
+                        date: '2024-10-19',
+                        schedules: [
+                            { time: '9:00 AM', slots: 1 },
+                            { time: '9:45 AM', slots: 1 },
+                            { time: '10:30 AM', slots: 1 },
+                            { time: '11:15 AM', slots: 1 },
+                            { time: '12:00 AM', slots: 1 },
+                            { time: '12:45 AM', slots: 1 },
+                            { time: '13:30 PM', slots: 1 },
+                            { time: '17:15 PM', slots: 1 },
+                            { time: '18:00 PM', slots: 1 },
+                            { time: '18:45 PM', slots: 1 },
+                            { time: '19:30 PM', slots: 1 },
+                        ],
+                    },
+                    {
+                        date: '2024-10-26',
+                        schedules: [
+                            { time: '9:00 AM', slots: 1 },
+                            { time: '9:45 AM', slots: 1 },
+                            { time: '10:30 AM', slots: 1 },
+                            { time: '11:15 AM', slots: 1 },
+                            { time: '12:00 AM', slots: 1 },
+                            { time: '12:45 AM', slots: 1 },
+                            { time: '13:30 PM', slots: 1 },
+                            { time: '17:15 PM', slots: 1 },
+                            { time: '18:00 PM', slots: 1 },
+                            { time: '18:45 PM', slots: 1 },
+                            { time: '19:30 PM', slots: 1 },
+                        ],
+                    },
+                    {
+                        date: '2024-11-02',
+                        schedules: [
+                            { time: '9:00 AM', slots: 1 },
+                            { time: '9:45 AM', slots: 1 },
+                            { time: '10:30 AM', slots: 1 },
+                            { time: '11:15 AM', slots: 1 },
+                            { time: '12:00 AM', slots: 1 },
+                            { time: '12:45 AM', slots: 1 },
+                            { time: '13:30 PM', slots: 1 },
+                            { time: '17:15 PM', slots: 1 },
+                            { time: '18:00 PM', slots: 1 },
+                            { time: '18:45 PM', slots: 1 },
+                            { time: '19:30 PM', slots: 1 },
+                        ],
+                    },
+                ],
+            },
+
+        ],
+    },
+];
