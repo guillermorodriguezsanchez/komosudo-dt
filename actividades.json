@@ -1,0 +1,9 @@
+[
+    { id: '1', name: 'Yoga', icon: 'meditation' },
+    { id: '2', name: 'Pilates', icon: 'yoga' },
+    { id: '3', name: 'Entrenamiento Funcional', icon: 'weight-lifter' },
+    { id: '4', name: 'Boxeo', icon: 'boxing-glove' },
+    { id: '5', name: 'Entrenamiento', icon: 'run' },
+    { id: '6', name: 'Fisioterapia', icon: 'run' }
+
+];
